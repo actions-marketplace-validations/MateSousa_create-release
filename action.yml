@@ -25,3 +25,6 @@ runs:
     INPUT_BASE_BRANCH: ${{ inputs.base_branch }}
     INPUT_TARGET_BRANCH: ${{ inputs.target_branch }}
     INPUT_GITHUB_TOKEN: ${{ inputs.github_token }}
+branding:
+  icon: 'git-pull-request'
+  color: 'blue'
